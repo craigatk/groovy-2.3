@@ -1,24 +1,12 @@
-Groovy Application project template
-------------------------------------
+# Groovy 2.3 Examples
 
-You have just created a basic Groovy application. There is a standard project
-structure for source code and tests.
+Examples of some of the new features in Groovy 2.3
 
-In this project you get:
+### Traits
+    src/main/groovy/example/trait
 
-* A Gradle build file
-* A standard project structure:
+### Markup Builder
+    src/main/groovy/example/markup
 
-    <proj>
-      |
-      +- src
-          |
-          +- main
-          |     |
-          |     +- groovy
-          |
-          +- test
-          |   |
-          |   +- groovy
-
-          |
+### @Sortable
+    src/main/groovy/example/sortable
