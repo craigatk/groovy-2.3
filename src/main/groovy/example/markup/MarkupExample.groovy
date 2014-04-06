@@ -9,14 +9,17 @@ import groovy.text.markup.TemplateConfiguration
  */
 class MarkupExample {
     String markupFromTemplateFile() {
+        Map model = [pageTitle: "Markup Page", pageHeading: "My First Markup Page"]
+
         TemplateConfiguration config = new TemplateConfiguration(
                 autoIndent: true,
                 autoIndentString: '  ',
-                autoNewLine: true
+                autoNewLine: true,
+                newLineString: '\n'
         )
         MarkupTemplateEngine engine = new MarkupTemplateEngine(config)
         Template template = engine.createTemplateByPath("markup.tpl")
-        Writable output = template.make()
+        Writable output = template.make(model)
         StringWriter writer = new StringWriter()
         output.writeTo(writer)
 

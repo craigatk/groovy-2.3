@@ -1,10 +1,10 @@
 html {
  head {
-  title("My Markup Page")
+  title(pageTitle)
  }
  body {
   div {
-    h1("My First Markup Page")
+    h1(pageHeading)
   }
  }
 }

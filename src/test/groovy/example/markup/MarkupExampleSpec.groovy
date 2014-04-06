@@ -10,7 +10,7 @@ class MarkupExampleSpec extends Specification {
         then:
         assert templateText == '''<html>
   <head>
-    <title>My Markup Page</title>
+    <title>Markup Page</title>
   </head><body>
     <div>
       <h1>My First Markup Page</h1>
