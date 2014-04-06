@@ -1,4 +1,4 @@
-package example
+package example.trait
 
 trait NameTrait {
     String firstName
