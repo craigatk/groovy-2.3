@@ -5,10 +5,5 @@ package example.builder
  *
  * Bug in @Builder will cause compilation to fail in Gradle http://jira.codehaus.org/browse/GROOVY-6774
  */
-//@Builder
-class Address {
-    String street
-    String city
-    String state
-    String zip
-}
+//@Builder(builderStrategy=ExternalStrategy, forClass=Address)
+class AddressBuilder { }
