@@ -8,7 +8,7 @@ Examples of some of the new features in Groovy 2.3
 
 ### Markup Builder
     src/main/groovy/example/markup
-     src/test/groovy/example/markup
+    src/test/groovy/example/markup
 
 ### @Sortable
     src/main/groovy/example/sortable
