@@ -1,9 +1,7 @@
 package example.builder
 
-import spock.lang.Ignore
 import spock.lang.Specification
 
-@Ignore // Ignored until this Groovy bug is fixed http://jira.codehaus.org/browse/GROOVY-6774
 class AddressBuilderSpec extends Specification {
     def 'should build address'() {
         when:
