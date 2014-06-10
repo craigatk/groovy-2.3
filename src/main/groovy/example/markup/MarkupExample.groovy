@@ -5,7 +5,7 @@ import groovy.text.markup.MarkupTemplateEngine
 import groovy.text.markup.TemplateConfiguration
 
 /**
- * See docs at http://beta.groovy-lang.org/docs/groovy-2.3.0-SNAPSHOT/html/documentation/markup-template-engine.html
+ * See docs at http://groovy-lang.org/docs/groovy-2.3.2/html/documentation/markup-template-engine.html
  */
 class MarkupExample {
     String markupFromTemplateFile() {
