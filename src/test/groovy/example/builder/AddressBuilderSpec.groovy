@@ -5,7 +5,7 @@ import spock.lang.Specification
 class AddressBuilderSpec extends Specification {
     def 'should build address'() {
         when:
-        AddressBuilder address = new AddressBuilder().street('123 Main St').city('Minneapolis').state('MN').zip('55403')
+        Address address = new AddressBuilder().street('123 Main St').city('Minneapolis').state('MN').zip('55403').build()
 
         then:
         assert address.street == '123 Main St'
